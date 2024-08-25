@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.fst-block{
+    justify-content: center;
+    text-align: center;
+}
+.scd-block{
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}

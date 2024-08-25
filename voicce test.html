@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>title</title>
+</head>
+<body>
+    <div class="flex">
+        <div class="fst-block">
+            <h1>Cadastro de Usuários</h1>
+            <form id="user-form">
+                <input type="text" id="name" placeholder="Nome" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <button type="submit">Adicionar Usuário</button>
+            </form>
+        </div>
+        <div class="scd-block">
+            <h2>Lista de Usuários</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="user-list">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="testJS.js"></script>
+</body>
+</html>
